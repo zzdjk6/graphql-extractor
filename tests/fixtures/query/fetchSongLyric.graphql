@@ -1,0 +1,6 @@
+query ($id: ID!){
+    readOneSong(ID: $id) {
+        TXTLyric
+        LRCLyric
+    }
+}

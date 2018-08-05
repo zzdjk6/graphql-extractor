@@ -1,0 +1,23 @@
+{
+  "name": "graphql-extractor",
+  "version": "1.0.0",
+  "description": "Extract GraphQL queries and build a map to use as persisted query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "graphql-extract": "./index.js"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Thor(Shenghan) Chen <zzdjk6@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.17.0",
+    "glob": "^7.1.2",
+    "graphql-query-compress": "^1.0.11",
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,0 +1,11 @@
+query {
+    readPlaylists {
+        ID
+        ClassName
+        LastEdited
+        Created
+        Title
+        Description
+        NumberOfSongs
+    }
+}

@@ -1,0 +1,26 @@
+query ($playlistID: ID!){
+    readOnePlaylist(ID: $playlistID) {
+        ID
+        ClassName
+        LastEdited
+        Created
+        Title
+        Description
+        Songs {
+            ID
+            ClassName
+            LastEdited
+            Created
+            Title
+            Length
+            Artist
+            Album
+            Disc
+            Track
+            StreamFile {
+                id
+                url
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+mutation ($email: String!, $password: String!) {
+    createToken(Email: $email, Password: $password) {
+        ID
+        FirstName
+        Surname
+        Email
+        Token
+    }
+}

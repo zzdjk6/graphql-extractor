@@ -1,0 +1,11 @@
+mutation ($input: PlaylistCreateInputType!) {
+    createPlaylist(Input: $input) {
+        ID
+        ClassName
+        LastEdited
+        Created
+        Title
+        Description
+        NumberOfSongs
+    }
+}

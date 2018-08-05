@@ -1,0 +1,11 @@
+mutation ($songID: Int, $playlistID: Int) {
+    addSongToPlaylist(SongID: $songID, PlaylistID: $playlistID) {
+        ID
+        ClassName
+        LastEdited
+        Created
+        Title
+        Description
+        NumberOfSongs
+    }
+}

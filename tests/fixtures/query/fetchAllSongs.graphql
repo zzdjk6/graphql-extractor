@@ -1,0 +1,15 @@
+query {
+    readSongs {
+        ID
+        Title
+        Length
+        Artist
+        Album
+        Disc
+        Track
+        StreamFile {
+            id
+            url
+        }
+    }
+}
