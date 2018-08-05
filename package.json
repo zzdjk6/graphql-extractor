@@ -12,7 +12,12 @@
   "keywords": [
     "graphql"
   ],
-  "author": "Thor(Shenghan) Chen <zzdjk6@gmail.com>",
+  "author": {
+    "name": "Thor(Shenghan) Chen",
+    "email": "zzdjk6@gmail.com>",
+    "url": "https://github.com/zzdjk6"
+  },
+  "repository": "github:zzdjk6/graphql-extractor",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.17.0",
