@@ -1,6 +1,6 @@
 {
   "name": "graphql-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract GraphQL queries and build a map to use as persisted query.",
   "main": "index.js",
   "scripts": {
